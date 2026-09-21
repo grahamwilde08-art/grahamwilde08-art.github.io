@@ -1,6 +1,6 @@
 function calculate() {
   var year = document.getElementById("year").value;
-  year= Number(year)
+  year = Number(year)
   var age = 2026 - year;
-  alert(age);
+  document.getElementById("ageOutput").textContent = age;
 }
